@@ -1,20 +1,27 @@
 site_name: WashU Gravitational Imaging
 theme:
-  name: mkdocs
+  name: readthedocs
   features:
     - navigation.sections
     - navigation.expand
 
 nav:
   - Home: index.md
+  - Schedule: schedule.md
+  - Curriculum:
+    - "Part I: Dark matter in the Universe": curriculum/part_1.md
+    - "Part II: Optics": curriculum/part_2.md
+    - "Part III: Putting dark matter and optics together": curriculum/part_3.md
+    - "Part IV: Space telescopes": curriculum/part_4.md
+    - "Conclusion and Q&A": curriculum/conclusion.md
 
 markdown_extensions:
   - admonition
-  # - pymdownx.arithmatex:
-  #     generic: true
-  # - pymdownx.betterem
+  - mdx_math
 
-
-# extra_javascript:
-#   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-#   - https://polyfill.io/v3/polyfill.min.js?features=es6
+# for mdx_math
+use_directory_urls: false
+plugins:
+  - search
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML

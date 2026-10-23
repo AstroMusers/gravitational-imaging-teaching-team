@@ -1,6 +1,8 @@
 # Notebook outputs
 /data/
 /visuals/
+**/visuals/
+examples/point_mass_lensing_activity.html
 
 
 # Python test script to execute all notebooks

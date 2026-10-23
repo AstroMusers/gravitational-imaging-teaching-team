@@ -22,3 +22,7 @@ python -m pytest test_workflow.py -q
 These tests exercise the actual workflow runner with a substituted notebook
 process. They verify argument handling and error propagation without executing
 the curriculum notebooks or certifying their scientific content.
+
+## Notebook activity
+
+In the [point-mass lensing activity](examples/point_mass_lensing_activity.ipynb), we explore how one source produces two images and how magnification changes with alignment. The notebook uses an explicitly synthetic point-mass lens in Einstein-angle units and saves its figure under the ignored `examples/visuals/` directory.

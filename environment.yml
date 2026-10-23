@@ -8,6 +8,6 @@ dependencies:
   - jupyter
   - pip
   - pip:
-    - git+https://github.com/tansudaylan/tdpy.git@v1.2
+    - git+https://github.com/tansudaylan/tdpy.git@9df1626b2f72f6c2cbab661fa43046d242930e07
     - pyhalo
     # - git+https://github.com/AstroMusers/mejiro.git

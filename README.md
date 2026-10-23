@@ -4,7 +4,7 @@ How can a glass of water help make gravitational lensing feel less abstract? We 
 
 Our `paths.py` module reads `GRAVITATIONAL_IMAGING_TEACHING_TEAM_PATH`, which defaults to this checkout. It exposes local `data/` and `visuals/` directories. Git ignores both.
 
-Create the workshop environment from `environment.yml` before running the notebook. It pins TDpy v1.2 for quiet, relative file-operation messages.
+Create the workshop environment from `environment.yml` before running the notebook. It pins a published TDpy revision containing the verbosity helper for quiet, relative file-operation messages.
 
 ## Notebook Checks
 

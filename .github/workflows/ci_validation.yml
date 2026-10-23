@@ -6,7 +6,9 @@ on:
     pull_request:
       branches: [ "main" ]
 
-permissions: write-all
+permissions:
+  contents: read
+  pull-requests: read
 
 jobs:
   build:
@@ -28,11 +30,30 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v46.0.1
         with:
+          json: true
+          escape_json: false
+          safe_output: false
+          quotepath: false
           files: |
             **/*.ipynb
       - name: Executing changed notebooks
+        env:
+          CHANGED_NOTEBOOKS: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file was updated, executing notebook"
-            jupyter nbconvert --template classic --to html --execute $file
-          done    
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          import sys
+
+          notebooks = json.loads(os.environ["CHANGED_NOTEBOOKS"])
+          if not isinstance(notebooks, list) or any(not isinstance(path, str) for path in notebooks):
+              raise ValueError("Changed notebooks must be a JSON array of paths")
+          for notebook in notebooks:
+              print(f"Reading from {notebook}...")
+              subprocess.run(
+                  [sys.executable, "-m", "nbconvert", "--template", "classic",
+                   "--to", "html", "--execute", os.path.join(".", notebook)],
+                  check=True,
+              )
+          PY

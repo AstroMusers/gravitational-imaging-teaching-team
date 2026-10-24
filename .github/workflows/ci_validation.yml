@@ -24,8 +24,6 @@ jobs:
           environment-file: environment.yml
           python-version: 3.13
           auto-activate: false
-      - run: |
-          conda install nbconvert
       - name: Gather changed notebooks
         id: changed-files
         uses: tj-actions/changed-files@v47.0.6

@@ -1,6 +1,6 @@
 # gravitational-imaging-teaching-team
 
-How can a glass of water help make gravitational lensing feel less abstract? We use hands-on optics demonstrations to connect the bending of light by ordinary lenses and galaxies, then build toward dark matter, strong-lens substructure, and space-telescope observations. This repository collects our workshop materials as the curriculum takes shape.
+How can a glass of water help make gravitational lensing feel less abstract? We use hands-on optics demonstrations to connect the bending of light by ordinary lenses and galaxies, then build toward dark matter, strong-lens substructure, and space-telescope observations. We keep our workshop materials here as the curriculum takes shape.
 
 Our `paths.py` module reads `GRAVITATIONAL_IMAGING_TEACHING_TEAM_PATH`, which defaults to this checkout. It exposes local `data/` and `visuals/` directories. Git ignores both.
 

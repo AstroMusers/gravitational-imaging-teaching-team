@@ -1,11 +1,11 @@
-## More about strong lenses
+## Modeling strong lenses
 
-Introduction to `lenstronomy`. Mass and light models and how they're parameterized in `lenstronomy`.
+`lenstronomy` represents the lens mass and the light from the lens and source with parameterized models. Changing those parameters changes the predicted image.
 
-## The effect of substructure
+## Substructure
 
-More `lenstronomy`, maybe also `pyHalo`
+Smaller dark-matter halos within or near a larger lens can perturb its images. We use lens models to explore how those changes depend on the mass distribution.
 
-## Demo/activity
+## Computational activities
 
-Jupyter notebooks, animation with `lightcone`.
+Jupyter notebooks and a `lightcone` animation accompany the lens-model exercises.

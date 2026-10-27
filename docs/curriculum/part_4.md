@@ -1,20 +1,15 @@
-## Why go to space?
+## Why observe from space?
 
-How small, dim, and rare these objects are. Atmospheric scintillation and IR windows.
+Distant lens systems can be faint, and fine image structure can subtend small angles. Space telescopes avoid atmospheric scintillation and open access to many infrared wavelengths absorbed by Earth's atmosphere.
 
-## Brief history of space telescopes
+## Space-telescope missions
 
-Hubble, Nancy Grace Roman, JWST. Space telescope timelines. Video of launch.
+Follow the histories of Hubble, the Nancy Grace Roman Space Telescope, and JWST through their mission timelines and launch videos.
 
-## Space telescope technology
+## Orbits, communications, and detectors
 
-L2 and LEO, Deep Space Network, CCDs
+Low Earth orbit and Sun-Earth L2 shape how telescopes observe and send data home. The Deep Space Network communicates with distant spacecraft. CCDs convert incoming light into charge that can be measured.
 
-## Details of optical/near-IR space telescopes
+## Optical and near-infrared images
 
-Give enough background for `mejiro` to make sense and be well-motivated.
-
-* Filters and galaxy SEDs plus redshift
-* PSF
-* Sky background and Poisson noise
-* Other sources of detector noise
+Filters select wavelength bands. A galaxy's spectral energy distribution describes how its brightness changes with wavelength, and redshift shifts those features between filters. The point-spread function describes how telescope optics blur an image. Sky background, photon noise, and other detector noise affect faint measurements.

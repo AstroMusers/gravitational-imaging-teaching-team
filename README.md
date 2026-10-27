@@ -21,9 +21,10 @@ repository's root.
 python -m pytest test_workflow.py -q
 ```
 
-These tests exercise the actual workflow runner with a substituted notebook
-process. They verify argument handling and error propagation without executing
-the curriculum notebooks or certifying their scientific content.
+The tests run the workflow's embedded Python with `subprocess.run` mocked. They
+check that notebook paths reach `nbconvert` as literal arguments and that a
+notebook failure stops the job. CI executes only notebooks changed in the pull
+request or push.
 
 ## Notebook activity
 

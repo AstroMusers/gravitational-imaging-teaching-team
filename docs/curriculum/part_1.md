@@ -1,20 +1,15 @@
-## What is cosmology?
+## The large-scale Universe
 
-The cosmological principle: the Universe is homogeneous and isotropic on large scales
+On sufficiently large scales, the matter distribution is approximately homogeneous and isotropic. This is the cosmological principle.
 
-## The existence of dark matter 
+## Evidence for dark matter
 
-Anomalous observations and attempts to explain them. What motivates positing the existence of something new?
+Galaxy rotation curves show how orbital speeds change with distance from a galaxy's center. We ask what mass distribution could explain those speeds and what observations motivate adding dark matter to the picture.
 
-!!! note
-    an opportunity for discussion?
+## Dark matter and structure
 
-## Different theories of dark matter
+In the \(\Lambda\text{CDM}\) model, cold dark matter helps structure grow under gravity. N-body simulations predict smaller dark-matter halos, called subhalos, within larger halos. How do those predictions compare with the satellite galaxies we observe?
 
-* The role of dark matter in \(\Lambda\text{CDM}\) and n-body cosmological simulations
-    * Animation
-* The problem of subhalos
+## A question about rotation
 
-## Demo/activity
-
-* Angular momentum demo to motivate galactic rotation curves?
+How does angular momentum shape a galaxy's rotation curve, and what can that curve tell us about the mass enclosed at different radii?

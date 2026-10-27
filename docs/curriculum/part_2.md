@@ -1,15 +1,15 @@
 ## Basic optics
 
-Lenses as objects that bend light. Define terms.
+A glass lens bends light as rays pass through its surfaces. We describe the resulting image by its focal length, object, and image position.
 
 ## Gravitational lensing
 
-Light takes the shortest path. Mass bends spacetime. Light follows that spacetime.
+Mass curves spacetime and deflects light from a background source. A close alignment can produce multiple images of the same source.
 
-## Galaxy-galaxy strong gravitational lensing
+## Galaxy-galaxy strong lensing
 
-The lensing configuration. Some real examples.
+A foreground galaxy can bend light from a background galaxy into arcs, doubles, or quads. The image pattern depends on the positions and shapes of the lens and source.
 
-## Demo/activity
+## Wine-glass activity
 
-Wine glasses. Put up images of some strong lenses (quads, doubles, etc.) and try to use wine glass to make same configuration. Ideally, can have differently-shaped source and lensing objects to try to make point about degeneracy.
+Look through a wine glass at images of strong lenses and compare the distortions. How do changes in the source and lens shapes alter the pattern? Could different configurations produce similar-looking images?
